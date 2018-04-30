@@ -1,6 +1,7 @@
 package com.colossussoftware.titanwalking.titanwall.adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.colossussoftware.titanwalking.titanwall.R;
+import com.colossussoftware.titanwalking.titanwall.WallpapersActivity;
 import com.colossussoftware.titanwalking.titanwall.model.Category;
 
 import java.util.List;
@@ -44,7 +46,7 @@ public class CategoriesAdapter extends RecyclerView.Adapter<CategoriesAdapter.Ca
         return categoryList.size();
     }
 
-    class CategoryViewHolder extends RecyclerView.ViewHolder {
+    class CategoryViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         TextView textView;
         ImageView imageView;
@@ -54,6 +56,18 @@ public class CategoriesAdapter extends RecyclerView.Adapter<CategoriesAdapter.Ca
 
             textView = itemView.findViewById(R.id.textViewCatName);
             imageView = itemView.findViewById(R.id.imageView);
+
+            itemView.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View view) {
+            int pos = getAdapterPosition();
+            Category category = categoryList.get(pos);
+            Intent intent = new Intent(mCtx, WallpapersActivity.class);
+            intent.putExtra("category", category.name);
+
+            mCtx.startActivity(intent);
         }
     }
 }
