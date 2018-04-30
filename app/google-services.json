@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "171923747943",
+    "firebase_url": "https://titan-wallpaper.firebaseio.com",
+    "project_id": "titan-wallpaper",
+    "storage_bucket": "titan-wallpaper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171923747943:android:b995108135ef69e9",
+        "android_client_info": {
+          "package_name": "com.colossussoftware.titanwalking.titanwall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171923747943-9jf4p8jfsq233q2utffgg1mq1rifo3cq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.colossussoftware.titanwalking.titanwall",
+            "certificate_hash": "58a6b8b2a530df77fee2868e31e7a630b7794a02"
+          }
+        },
+        {
+          "client_id": "171923747943-lcn5fhoe6r74h9jl63caa1dv1bqrdqmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpNMbjcEIkhixtnxEkdu38UwoAaQu1Tvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171923747943-lcn5fhoe6r74h9jl63caa1dv1bqrdqmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171923747943:android:c1879948ed02fe00",
+        "android_client_info": {
+          "package_name": "com.colossussoftware.titanwalking.titanwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171923747943-amjb95s2g0mb7jon8s0nmnlb2uifp4ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.colossussoftware.titanwalking.titanwallpaper",
+            "certificate_hash": "58a6b8b2a530df77fee2868e31e7a630b7794a02"
+          }
+        },
+        {
+          "client_id": "171923747943-lcn5fhoe6r74h9jl63caa1dv1bqrdqmj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpNMbjcEIkhixtnxEkdu38UwoAaQu1Tvg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171923747943-lcn5fhoe6r74h9jl63caa1dv1bqrdqmj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
